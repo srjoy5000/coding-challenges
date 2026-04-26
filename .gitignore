@@ -1,2 +1,14 @@
 paiza/
 aizu/
+
+.vscode
+.claude
+CLAUDE.md
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# C++ build artifacts
+*.out
+*.o
