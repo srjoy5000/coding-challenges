@@ -4,13 +4,13 @@ Solutions to competitive programming problems across multiple platforms, written
 
 ## Platforms
 
-| Folder | Platform |
-|---|---|
-| `atcoder/` | [AtCoder](https://atcoder.jp) |
-| `leetcode/` | [LeetCode](https://leetcode.com) |
-| `paiza/` | [Paiza](https://paiza.jp) |
-| `tips-and-tricks/` | Input/algorithm patterns |
-| `aizu/` | [AIZU Online Judge](https://onlinejudge.u-aizu.ac.jp) (gitignored) |
+| Folder             | Platform                                                           |
+| ------------------ | ------------------------------------------------------------------ |
+| `atcoder/`         | [AtCoder](https://atcoder.jp)                                      |
+| `leetcode/`        | [LeetCode](https://leetcode.com)                                   |
+| `paiza/`           | [Paiza](https://paiza.jp) (gitignored)                             |
+| `tips-and-tricks/` | Input/algorithm patterns                                           |
+| `aizu/`            | [AIZU Online Judge](https://onlinejudge.u-aizu.ac.jp) (gitignored) |
 
 ## Structure
 
@@ -34,11 +34,13 @@ tips-and-tricks/
 ## Running solutions
 
 **C++:**
+
 ```bash
 ./run.sh atcoder/cpp/ABC455-C.cpp < input.txt
 ```
 
 **Python:**
+
 ```bash
 python3 paiza/python/A093.py < input.txt
 ```
