@@ -1,5 +1,10 @@
 // https : // atcoder.jp/contests/abc455/tasks/abc455_c
 // I can solve now
+// map<ll, ll> freq;
+// vector<ll> sums(n + 9);
+// for (auto [key, val] : freq)
+//     sums.push_back(key *val);
+// sort(sums.begin(), sums.end());
 
 #include <bits/stdc++.h>
 using namespace std;
