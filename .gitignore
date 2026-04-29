@@ -1,5 +1,6 @@
 paiza/
 aizu/
+tips-and-tricks
 
 .vscode
 .claude
@@ -12,3 +13,4 @@ CLAUDE.md
 # C++ build artifacts
 *.out
 *.o
+

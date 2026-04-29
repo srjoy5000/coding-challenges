@@ -38,3 +38,35 @@ int main()
 
     recur("");
 }
+
+// memorized recursion: https://qiita.com/e869120/items/25cb52ba47be0fd418d6#3-6-発展再帰関数を用いた全探索の応用メモ化再帰
+// turn this into
+int func(int a)
+{
+    if (a == 0)
+        return 1;
+    int z1 = 0;
+    if (a >= 1)
+        z1 = func(a - 1); // recursive
+    int z2 = 0;
+    if (a >= 2)
+        z2 = func(a - 2); // recursive
+    return z1 + z2;
+}
+// this one
+int Memo[1009];
+int func(int a)
+{
+    if (a == 0)
+        return 1;
+    if (Memo[a] >= 1) // just return the value from the memo if Memo[a] already exist
+        return Memo[a];
+    int z1 = 0;
+    if (a >= 1)
+        z1 = func(a - 1);
+    int z2 = 0;
+    if (a >= 2)
+        z2 = func(a - 2);
+    Memo[a] = z1 + z2; // register the value to the memo
+    return z1 + z2;
+}
