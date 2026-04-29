@@ -49,3 +49,14 @@ int main()
         cout << "No" << endl;
     return 0;
 }
+
+// bit-brute-force applied to base-3 number
+void solve(int x)
+{
+    int B[18], power3 = 1; // 3^0 == 1
+    for (int i = 0; i < 18; i++)
+    {
+        B[i] = (x / power3) % 3;
+        power3 *= 3; // 3^i from 3^1~3^17
+    }
+}
