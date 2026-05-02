@@ -1,10 +1,11 @@
 # How to Solve?
 
-## Method 1
+## Tips
 
-- draw a graph to understand the question better
-- 「coutの出力順序という物理的な制約」から逆算して、必要なデータをどう取り出すかを考えるのがコツです！
+- Draw a Picture to understand the question better.
+- Use 1-based index if the question uses this. Don't forget to add 1 to the size of the container when doing this.
+- Think how the program outputs the data (e.g. from left to right line by line) and work from there.
 
 ## My Mistakes
 
-- 0 base index vs 1 base index
+- 0-base index vs 1-base index
