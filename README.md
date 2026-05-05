@@ -16,7 +16,7 @@ Solutions to competitive programming problems across multiple platforms, written
 
 Each platform folder is organized by language:
 
-```
+```bash
 atcoder/
   cpp/
   python/
