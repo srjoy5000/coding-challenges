@@ -2,6 +2,7 @@
 
 ## Tips
 
+- Use **long long** if the value can exceed 10^5 by default.
 - Draw a Picture to understand the question better.
 - Use 1-based index if the question uses this. Don't forget to add 1 to the size of the container when doing this.
 - Think how the program outputs the data (e.g. from left to right line by line) and work from there.
