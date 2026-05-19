@@ -30,6 +30,8 @@ public:
                 l++;
             else if (!isAlNum(s[r]))
                 r--;
+            // Inline Post-Increments: In the final else branch, s[l++] and
+            // s[r--] compare the characters first and then move the pointers in a single, compact line.
             else if (tolower(s[l++]) != tolower(s[r--]))
                 return false;
         }
