@@ -14,7 +14,7 @@ public:
         stack<char> open;
         for (char c : s)
         {
-            if (brak.contains(c))
+            if (brak.count(c))
             {
                 open.push(brak[c]);
             }
