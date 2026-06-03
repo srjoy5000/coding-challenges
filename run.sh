@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Usage: ./run.sh path/to/file.cpp [< input.txt]
+# Usage: ./run.sh path/to/file.cpp
 set -e
-FILE="$1"
-BIN=$(mktemp /tmp/sol_XXXXXX)
-g++ -std=c++17 -O2 -o "$BIN" "$FILE"
-"$BIN"
-rm -f "$BIN"
+
+# Compile to a quick binary named 'a.out' and run it right away if successful
+g++-15 -std=c++23 -O2 "$1" && ./a.out
+
+# Clean up the binary immediately after it finishes running
+rm -f ./a.out
