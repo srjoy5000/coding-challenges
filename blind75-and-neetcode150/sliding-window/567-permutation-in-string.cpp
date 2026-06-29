@@ -4,6 +4,7 @@
 using namespace std;
 using ll = long long;
 
+// based on https://youtu.be/quSfR-uwkZU?si=dYgcSmLEaVbno3H4
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
